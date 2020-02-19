@@ -1,0 +1,36 @@
+接口测试类主要为了实现单个接口的参数便利
+
+目录结构：
+    case：存放的测试用例
+    common：封装的api基类
+    ligs：执行日志
+    parameter：参数及断言存放迷路，格式为.xlsx
+    report：生成的测试报告存放目录
+    uploads：需要上传的文件存目录
+    run_api_test.py:运行测试执行文件。该文件内封装了以邮件的方式发送报告功能，和测试报告的清理功能。
+
+
+调用需要参数：
+    1、s_url：登录url
+    2、s_data：登录的参数
+    3、filepath：存放参数及断言的文件名（格式必须是Excel）
+    4、param：文件中参数所在的sheet页（索引）
+    5、asset：断言信息sheet页（索引）
+
+参数和断言信息填写规则：
+    参数第一行是参数名，从第二行开始是参数（可参照工程目录下的parameter/single.xlsx）。如果参数是json格式从第二行开始填写,一行存放一组
+    断言信息sheet页下第一行是url，从第二行开始第一列是Python截取字典的代码，第二列是预期结果
+    类中封装了对数据格式化的功能，在参数页下如果想在本次请求中不传某个参数，只要把该参数的值单元格为空即可。如果想本次请求传入的参数值为空，
+    需要在对应值得单元格填入null。
+
+
+封装的请求方法：
+    run_get：常用的get方法
+    run_post：常用的post方法
+    run_post_json：post方法请求参数为json是使用
+    run_post_upload：post方法，上传文件时使用
+
+
+
+注：self.dir_case = './parameter/' + filepath 中的./parameter/，要根据调用文件的位置进行修改。
+
