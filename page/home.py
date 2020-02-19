@@ -7,21 +7,21 @@ class home(base):
 
     # 打开浏览器
     def open_b(self):
-        #self.log('正在打开浏览器...地址为 %s' % self.url)
+        self.log.info('正在打开浏览器...地址为 %s' % self.url)
         self.open()
 
     # 登录
     def login(self,user,pw):
-        username = self.xl_tuple(0, 0, 1)  # 元素（用户名）
+        username = self.element_info(0, 0, 1)  # 元素（用户名）
         self.send_keys(user,*username)
-        pwd = self.xl_tuple(0, 1, 1)  #  元素（密码）
+        pwd = self.element_info(0, 1, 1)  #  元素（密码）
         self.send_keys(pw,*pwd)
-        vv = self.xl_tuple(0, 2, 1)  #  元素（登录按钮）
+        vv = self.element_info(0, 2, 1)  #  元素（登录按钮）
         self.find_element_click(*vv)
         sleep(10)
 
-        tz = self.xl_tuple(0, 6, 1)
-        ll = self.xl_tuple(0, 7, 1)
+        tz = self.element_info(0, 6, 1)
+        ll = self.element_info(0, 7, 1)
 
 
         if self.find_element(*tz).is_displayed():
@@ -40,11 +40,11 @@ class home(base):
         """
 进入创建调拨单
         """
-        e = self.xl_tuple(0, 5, 1)  # 库存管理
-        e1= self.xl_tuple(1, 0, 1)  # 左侧菜单栏框架
-        e2= self.xl_tuple(1, 1, 1)  # 调拨管理按钮
-        e3= self.xl_tuple(1, 2, 1)  # 创建调拨单按钮
-        e4 = self.xl_tuple(1, 20, 1)  # 右侧框架
+        e = self.element_info(0, 5, 1)  # 库存管理
+        e1= self.element_info(1, 0, 1)  # 左侧菜单栏框架
+        e2= self.element_info(1, 1, 1)  # 调拨管理按钮
+        e3= self.element_info(1, 2, 1)  # 创建调拨单按钮
+        e4 = self.element_info(1, 20, 1)  # 右侧框架
         self.find_element_click(*e)
         sleep(3)
         self.s_frame(*e1)
@@ -63,11 +63,11 @@ class home(base):
         """
 进入调拨单管理
         """
-        e = self.xl_tuple(0, 5, 1)  # 库存管理
-        e1= self.xl_tuple(1, 0, 1)  # 左侧菜单栏框架
-        e2= self.xl_tuple(1, 1, 1)  # 调拨管理按钮
-        e3= self.xl_tuple(1, 3, 1)  # 调拨单管理按钮
-        e4= self.xl_tuple(1, 20, 1)  # 右侧框架
+        e = self.element_info(0, 5, 1)  # 库存管理
+        e1= self.element_info(1, 0, 1)  # 左侧菜单栏框架
+        e2= self.element_info(1, 1, 1)  # 调拨管理按钮
+        e3= self.element_info(1, 3, 1)  # 调拨单管理按钮
+        e4= self.element_info(1, 20, 1)  # 右侧框架
         self.find_element_click(*e)
         sleep(3)
         self.s_frame(*e1)
@@ -86,11 +86,11 @@ class home(base):
         """
 进入调拨单审批管理
         """
-        e = self.xl_tuple(0, 5, 1)  # 库存管理
-        e1= self.xl_tuple(1, 0, 1)  # 左侧菜单栏框架
-        e2= self.xl_tuple(1, 1, 1)  # 调拨管理按钮
-        e3= self.xl_tuple(1, 4, 1)  # 调拨单审批管理按钮
-        e4 = self.xl_tuple(1, 20, 1)  # 右侧框架
+        e = self.element_info(0, 5, 1)  # 库存管理
+        e1= self.element_info(1, 0, 1)  # 左侧菜单栏框架
+        e2= self.element_info(1, 1, 1)  # 调拨管理按钮
+        e3= self.element_info(1, 4, 1)  # 调拨单审批管理按钮
+        e4 = self.element_info(1, 20, 1)  # 右侧框架
         self.find_element_click(*e)
         sleep(3)
         self.s_frame(*e1)

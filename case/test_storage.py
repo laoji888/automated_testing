@@ -1,9 +1,9 @@
 from selenium import webdriver
 from time import sleep
-from storage_page.home import home
+from page.home import home
 import unittest, time
 from selenium.webdriver.common.by import By
-from storage_page.inventory_management import InventoryManagement
+from page.inventory_management import InventoryManagement
 
 
 class storage_case(unittest.TestCase):
@@ -16,10 +16,11 @@ class storage_case(unittest.TestCase):
         # self.elepath = './elements/elements.xlsx'
         self.driver = webdriver.Firefox()
         self.url = 'http://120.52.96.35:8001/mgWeb/'
-        self.t = time.strftime("%Y-%m-%d--%H-%M-%S", time.localtime(time.time()))  # 当前时间
+        self.t = time.strftime("%Y-%m-%d %H-%M-%S", time.localtime(time.time()))  # 当前时间
 
 
     def test_001(self):
+
         try:
             #  登录
             dr = home(self.driver,self.url)
@@ -37,16 +38,11 @@ class storage_case(unittest.TestCase):
             dr2 = home(self.driver,self.url)
             dr2.login("zhaolei", "123456")
 
-
-
-
-
         except Exception as e:
             print(e)
-            self.driver.save_screenshot("../error_imgs/" + self.t + '.png')
-        #
-        # else:
-        #     self.driver.get_screenshot_as_file("../win_imgs/" + self.t + '.png')
+            self.driver.save_screenshot("./error_imgs/" + self.t + '.png')
+        else:
+            self.driver.get_screenshot_as_file("./win_imgs/" + self.t + '.png')
 
 
 
@@ -54,5 +50,5 @@ class storage_case(unittest.TestCase):
         self.driver.quit()
 
 if __name__ == '__main__':
-    storage_case.test_001()
+    storage_case().test_001()
 

@@ -7,6 +7,7 @@ import logging
 # 日志模块
 class logere():
 
+
     def ll(self):
         # 创建一个logger
         logger = logging.getLogger()

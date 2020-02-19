@@ -1,4 +1,4 @@
-import HTMLTestRunner
+from cof import HTMLTestRunner
 import time, unittest, os
 import smtplib
 from email.mime.text import MIMEText

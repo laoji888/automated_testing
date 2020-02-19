@@ -21,7 +21,7 @@ def repotr_path(file_path):  # 给测试报告排序，返回路径，并控制�
     # 控制报告的数量
     if len(count) > 5:
         count.sort()
-        ph = './report/' + count[0]
+        ph = './report_ui/' + count[0]
         os.remove(ph)
     else:
         pass
@@ -34,7 +34,7 @@ def email(file_path, to_email):  # 以附件方式把测试报告发送给指定
     password = 'JiYaNanbc123'  # 密码(授权密码)
     #receive = 'jiyananid@163.com'  # 收件人地址，可以有多个，用“ ，”分割
 
-    name = os.listdir('./report')  # 以list的方式返回report下的报告
+    name = os.listdir('./report_ui')  # 以list的方式返回report下的报告
 
     msg_total = MIMEMultipart()  # 定义类型
                                 # multipart类型主要有三种子类型：

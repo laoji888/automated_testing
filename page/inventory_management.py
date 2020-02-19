@@ -1,7 +1,7 @@
 from selenium import webdriver
 from common.ui_base import base
 from time import sleep
-from storage_page.home import home
+from page.home import home
 from selenium.webdriver.common.action_chains import ActionChains as a
 
 class InventoryManagement(base):
@@ -12,12 +12,12 @@ class InventoryManagement(base):
         """
 新建调拨单下的搜索功能，济南分公司，工程库，物料编码是01240102050601
         """
-        e1 = self.xl_tuple(1,6,1)  # 选择地市下拉框
-        e2 = self.xl_tuple(1,7,1)  # 地市下济南分公司
-        e3 = self.xl_tuple(1,8,1)  # 下拉框逻辑库
-        e4 = self.xl_tuple(1,9,1)  # 逻辑库下的工程物资库
-        e5 = self.xl_tuple(1,10,1)  # 输入框物料编码
-        e6 = self.xl_tuple(1,11,1)  # 查新按钮
+        e1 = self.element_info(1,6,1)  # 选择地市下拉框
+        e2 = self.element_info(1,7,1)  # 地市下济南分公司
+        e3 = self.element_info(1,8,1)  # 下拉框逻辑库
+        e4 = self.element_info(1,9,1)  # 逻辑库下的工程物资库
+        e5 = self.element_info(1,10,1)  # 输入框物料编码
+        e6 = self.element_info(1,11,1)  # 查新按钮
 
         self.find_element_click(*e1)
         self.find_element_click(*e2)
@@ -31,13 +31,13 @@ class InventoryManagement(base):
         """
 新建调拨单，调拨至德州工程逻辑库
         """
-        e = self.xl_tuple(1, 12, 1)  # 调拨数量
-        e1 = self.xl_tuple(1, 13, 1)  # 下拉框目标地市
-        e2 = self.xl_tuple(1, 14, 1)  # 目标地市下的德州分公司
-        e3 = self.xl_tuple(1, 15, 1)  # 目标逻辑库下拉框
-        e4 = self.xl_tuple(1, 16, 1)  # 目标逻辑库工程库
-        e5 = self.xl_tuple(1, 17, 1)  # 新建页面第一条数据
-        e6 = self.xl_tuple(1, 18, 1)  # 创建调拨申请
+        e = self.element_info(1, 12, 1)  # 调拨数量
+        e1 = self.element_info(1, 13, 1)  # 下拉框目标地市
+        e2 = self.element_info(1, 14, 1)  # 目标地市下的德州分公司
+        e3 = self.element_info(1, 15, 1)  # 目标逻辑库下拉框
+        e4 = self.element_info(1, 16, 1)  # 目标逻辑库工程库
+        e5 = self.element_info(1, 17, 1)  # 新建页面第一条数据
+        e6 = self.element_info(1, 18, 1)  # 创建调拨申请
 
 
         self.send_keys('1', *e)
@@ -65,11 +65,11 @@ class InventoryManagement(base):
         """
 审批人选择姜嘉功，并提交审批
         """
-        e1 = self.xl_tuple(1,21,1)  # 下拉框-下一审批人
-        e2 = self.xl_tuple(1,22,1)  # 审批人姜嘉功
-        e3 = self.xl_tuple(1,23,1)  # 保存调拨单号
-        e4 = self.xl_tuple(1,24,1)  # 提交审批按钮
-        e5 = self.xl_tuple(1,25,1)  # 第一条数据
+        e1 = self.element_info(1,21,1)  # 下拉框-下一审批人
+        e2 = self.element_info(1,22,1)  # 审批人姜嘉功
+        e3 = self.element_info(1,23,1)  # 保存调拨单号
+        e4 = self.element_info(1,24,1)  # 提交审批按钮
+        e5 = self.element_info(1,25,1)  # 第一条数据
 
         self.find_element_click(*e1)
         self.find_element_click(*e2)
@@ -86,10 +86,10 @@ class InventoryManagement(base):
 
     #  审批调拨单
     def transfer_inspect(self):
-        e = self.xl_tuple(1, 27, 1)  # 项目编号输入框
-        e1 = self.xl_tuple(1, 30, 1)  # 查询按钮
-        e2 = self.xl_tuple(1, 28, 1)  # 第一条数据
-        e3 = self.xl_tuple(1, 29, 1)  # 审批通过按钮
+        e = self.element_info(1, 27, 1)  # 项目编号输入框
+        e1 = self.element_info(1, 30, 1)  # 查询按钮
+        e2 = self.element_info(1, 28, 1)  # 第一条数据
+        e3 = self.element_info(1, 29, 1)  # 审批通过按钮
 
         self.send_keys(self.transfer_code,*e)
         self.find_element_click(*e1)
