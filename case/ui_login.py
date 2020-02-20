@@ -6,11 +6,11 @@ from selenium import webdriver
 class CsmsTest(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Firefox()
-        # self.driver = webdriver.Remote(
-        #  	       command_executor='http://106.13.132.197:8888/wd/hub',
-        #  	       desired_capabilities={'browserName': 'firefox'}
-        #  	       )
+        # self.driver = webdriver.Firefox()
+        self.driver = webdriver.Remote(
+         	       command_executor='http://106.13.132.197:8888/wd/hub',
+         	       desired_capabilities={'browserName': 'firefox'}
+         	       )
         self.url = "http://120.52.157.131:58080/#/home/cooperation"
         self.dr = Home(self.driver,self.url)
 
