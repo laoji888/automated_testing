@@ -21,7 +21,7 @@ class CsmsTest(unittest.TestCase):
         self.assertIn("乔琳", xx.text,  msg='错误')
 
         self.dr.log_in_again("kh-laoji008", "ChinaTower1234*")
-        time.sleep(5)
+        time.sleep(15)
         self.assertIn("习近平", xx.text, msg='错误')
         time.sleep(5)
 
