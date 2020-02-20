@@ -61,7 +61,7 @@ def email(file_path, to_email):  # 以附件方式把测试报告发送给指定
 
 
 def my_tese():
-    discover = unittest.defaultTestLoader.discover(case_path, pattern="test*.py")
+    discover = unittest.defaultTestLoader.discover(case_path, pattern="ui*.py")
     return discover
 
 

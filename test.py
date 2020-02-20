@@ -6,6 +6,9 @@ import requests,json,xlrd,time
 
 
 # 测试json传参
+from selenium.webdriver.common.keys import Keys
+
+
 def post_json():
 
 
@@ -120,5 +123,15 @@ def msql(sql):
     print(curso)
     curso.close()
 
+from selenium import webdriver
+from time import sleep
+dr = webdriver.Firefox()
+dr.get("http://120.52.157.131:58080/#/home/cooperation")
+sleep(30)
+dr.find_element_by_xpath('//input[@placeholder="请输入账号"]').send_keys("123")
+sleep(2)
+aa = dr.find_element_by_xpath('//input[@placeholder="请输入账号"]')
+aa.send_keys(Keys.CONTROL + "a")
+aa.send_keys(Keys.ENTER)
+sleep(3)
 
-xx = msql("select id FROM django_migrations;")

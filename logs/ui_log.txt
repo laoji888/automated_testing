@@ -1,3 +1,0 @@
-2020-02-19 23:15:17,150 - INFO - home.py[line:10] - open_b - 正在打开浏览器...地址为 http://120.52.96.35:8001/mgWeb/
-2020-02-19 23:15:19,118 - INFO - ui_base.py[line:28] - open - 打开浏览器
-2020-02-19 23:15:21,081 - INFO - ui_base.py[line:69] - find_element_click - 打开浏览器

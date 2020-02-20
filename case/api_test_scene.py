@@ -10,7 +10,7 @@ class scene(unittest.TestCase):
         self.url = "http://120.52.157.131:58080/apis/zznode-csm/cms/login"
         self.data = {'username': 'kh-laoji008', 'password': 'a92553fd8fdc9620f76c7651319bbdcd'}
         self.header = {}
-        self.log = log().ll()
+        self.log = log().ll("./logs/api_log.txt")
 
     # 登录后把token添加到请求头
 

@@ -2007,3 +2007,1243 @@ LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US
 LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
 LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
 LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582187244427	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.OKbXenmNvt4C"
+1582187245285	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582187245285	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582187245286	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582187245286	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582187245350	Marionette	TRACE	Received observer notification profile-after-change
+1582187245403	Marionette	TRACE	Received observer notification toplevel-window-ready
+1582187245426	Marionette	TRACE	Received observer notification command-line-startup
+1582187245426	Marionette	TRACE	Received observer notification nsPref:changed
+1582187245426	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1582187245458	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1582187247379	Marionette	TRACE	Received observer notification marionette-startup-requested
+1582187247379	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1582187247384	Marionette	TRACE	All scripts recorded.
+1582187247384	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1582187247384	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1582187247384	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1582187247384	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1582187247385	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1582187247385	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1582187247386	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1582187247386	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1582187247386	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1582187247386	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1582187247386	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1582187247386	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1582187247386	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1582187247386	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1582187247386	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1582187247387	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1582187247387	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1582187247387	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1582187247387	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1582187247387	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1582187247387	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1582187247387	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1582187247387	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1582187247387	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1582187247388	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1582187247388	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1582187247388	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1582187247388	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1582187247388	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1582187247388	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1582187247389	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1582187247416	Marionette	INFO	Listening on port 56852
+1582187247416	Marionette	DEBUG	Remote service is active
+1582187247840	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:56866
+1582187247845	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1582187247846	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582187247899	Marionette	TRACE	[18] Frame script loaded
+1582187247907	Marionette	TRACE	[18] Frame script registered
+1582187247909	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"e54620ea-7e33-46d2-b948-2245a7622f6d","capabilities":{"browserName":"firefox","browserVersion":"70.0. ... ozprofile.OKbXenmNvt4C","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1582187248094	Marionette	DEBUG	Closed connection 0
+[Child 9616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9616, Chrome_ChildThread] WARNING: pipe e[Child 8596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11544, Chrome_ChildThr1582187255290	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1582187255290	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1582187255290	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1582187255290	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1582187255290	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1582187255290	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1582187255290	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1582187255291	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1582187255291	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1582187255291	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1582187255291	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1582187255291	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1582187255291	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1582187255291	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1582187255291	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1582187255291	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1582187255291	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1582187255291	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1582187255291	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1582187255292	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1582187255292	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1582187255292	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1582187255292	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1582187255292	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1582187255292	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1582187255292	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1582187255292	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1582187255292	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1582187255292	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1582187255292	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1582187255292	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1582187255292	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1582187255292	Marionette	INFO	Stopped listening on port 56852
+1582187255293	Marionette	DEBUG	Remote service is inactive
+[GPU
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ 11208, Chrome_Child
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1582192524015	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.RiiYoFoAqfjc"
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582192524783	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582192524783	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582192524783	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582192524783	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582192524848	Marionette	TRACE	Received observer notification profile-after-change
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582192524904	Marionette	TRACE	Received observer notification toplevel-window-ready
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582192524928	Marionette	TRACE	Received observer notification command-line-startup
+1582192524928	Marionette	TRACE	Received observer notification nsPref:changed
+1582192524928	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582192524961	Marionette	TRACE	Received observer notification toplevel-window-ready
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582192526684	Marionette	TRACE	Received observer notification marionette-startup-requested
+1582192526684	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1582192526689	Marionette	TRACE	All scripts recorded.
+1582192526689	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1582192526689	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1582192526689	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1582192526689	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1582192526690	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1582192526690	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1582192526690	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1582192526690	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1582192526690	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1582192526690	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1582192526691	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1582192526691	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1582192526691	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1582192526691	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1582192526691	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1582192526691	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1582192526691	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1582192526691	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1582192526692	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1582192526692	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1582192526692	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1582192526692	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1582192526692	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1582192526693	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1582192526693	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1582192526693	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1582192526693	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1582192526693	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1582192526693	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1582192526693	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1582192526694	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582192526720	Marionette	INFO	Listening on port 64374
+1582192526721	Marionette	DEBUG	Remote service is active
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582192526911	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:64391
+1582192526920	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1582192526920	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582192526957	Marionette	TRACE	[18] Frame script loaded
+1582192526967	Marionette	TRACE	[18] Frame script registered
+1582192526968	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"0bcfd8dc-761b-44c1-9577-e290fa58f04b","capabilities":{"browserName":"firefox","browserVersion":"70.0. ... ozprofile.RiiYoFoAqfjc","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582192527012	Marionette	DEBUG	Closed connection 0
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+[Child 11000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+[Child 656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12752, Chrome_ChildThread] WARNING: pipe erro1582192541576	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1582192541577	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1582192541577	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1582192541577	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1582192541577	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1582192541577	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1582192541577	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1582192541577	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1582192541577	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1582192541577	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1582192541577	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1582192541577	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1582192541578	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1582192541578	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1582192541578	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1582192541578	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1582192541578	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1582192541578	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1582192541578	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1582192541578	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1582192541578	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1582192541578	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1582192541578	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1582192541578	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1582192541579	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1582192541579	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1582192541579	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1582192541579	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1582192541579	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1582192541579	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1582192541579	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1582192541579	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1582192541579	Marionette	INFO	Stopped listening on port 64374
+1582192541579	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 12340, Chrome_ChildThre
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582194830462	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.kg0DpDBgrBOI"
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582194831272	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582194831273	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582194831273	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582194831273	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582194831339	Marionette	TRACE	Received observer notification profile-after-change
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582194831395	Marionette	TRACE	Received observer notification toplevel-window-ready
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582194831420	Marionette	TRACE	Received observer notification command-line-startup
+1582194831421	Marionette	TRACE	Received observer notification nsPref:changed
+1582194831421	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582194831454	Marionette	TRACE	Received observer notification toplevel-window-ready
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582194833149	Marionette	TRACE	Received observer notification marionette-startup-requested
+1582194833149	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1582194833153	Marionette	TRACE	All scripts recorded.
+1582194833153	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1582194833153	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1582194833153	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1582194833153	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1582194833154	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1582194833154	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1582194833154	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1582194833154	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1582194833154	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1582194833154	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1582194833155	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1582194833155	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1582194833155	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1582194833155	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1582194833155	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1582194833155	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1582194833155	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1582194833155	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1582194833155	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1582194833156	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1582194833156	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1582194833156	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1582194833156	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1582194833156	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1582194833156	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1582194833156	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1582194833156	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1582194833156	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1582194833156	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1582194833156	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1582194833157	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1582194833182	Marionette	INFO	Listening on port 51253
+1582194833182	Marionette	DEBUG	Remote service is active
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582194833345	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:51273
+1582194833356	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1582194833357	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582194833377	Marionette	TRACE	[18] Frame script loaded
+1582194833384	Marionette	TRACE	[18] Frame script registered
+1582194833386	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"e5bbb517-7198-4ab2-aec6-5403fb26cbda","capabilities":{"browserName":"firefox","browserVersion":"70.0. ... ozprofile.kg0DpDBgrBOI","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582194833424	Marionette	DEBUG	Closed connection 0
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+[Child 9656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/buil[Child 12380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12380, Chrome_ChildThread] WARNING: pipe error: 109: file[1582194839960	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1582194839960	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1582194839960	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1582194839960	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1582194839960	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1582194839960	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1582194839960	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1582194839960	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1582194839961	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1582194839961	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1582194839961	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1582194839961	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1582194839961	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1582194839961	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1582194839961	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1582194839961	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1582194839961	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1582194839961	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1582194839961	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1582194839961	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1582194839961	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1582194839961	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1582194839961	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1582194839961	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1582194839961	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1582194839961	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1582194839961	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1582194839961	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1582194839962	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1582194839962	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1582194839962	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1582194839962	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1582194839962	Marionette	INFO	Stopped listening on port 51253
+1582194839962	Marionette	DEBUG	Remote service is inactive
+[GPU 11764, C
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+hrome_ChildThread] WARNING: pi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201950667	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.fQphYfGfQNky"
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201951442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582201951442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582201951442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582201951442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582201951509	Marionette	TRACE	Received observer notification profile-after-change
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201951566	Marionette	TRACE	Received observer notification toplevel-window-ready
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201951591	Marionette	TRACE	Received observer notification command-line-startup
+1582201951591	Marionette	TRACE	Received observer notification nsPref:changed
+1582201951591	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201951627	Marionette	TRACE	Received observer notification toplevel-window-ready
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201953359	Marionette	TRACE	Received observer notification marionette-startup-requested
+1582201953359	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201953371	Marionette	TRACE	All scripts recorded.
+1582201953371	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1582201953371	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1582201953371	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1582201953371	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1582201953372	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1582201953372	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1582201953372	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1582201953372	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1582201953372	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1582201953372	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1582201953372	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1582201953372	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1582201953372	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1582201953373	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1582201953373	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1582201953373	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1582201953373	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1582201953373	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1582201953373	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1582201953374	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1582201953374	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1582201953374	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1582201953374	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1582201953374	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1582201953374	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1582201953374	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1582201953374	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1582201953374	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1582201953374	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1582201953375	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1582201953375	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1582201953401	Marionette	INFO	Listening on port 62350
+1582201953401	Marionette	DEBUG	Remote service is active
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201953459	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:62365
+1582201953460	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1582201953460	Marionette	WARN	TLS certificate errors will be ignored for this session
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201953477	Marionette	TRACE	[18] Frame script loaded
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201953484	Marionette	TRACE	[18] Frame script registered
+1582201953485	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"b0836ac2-cf51-4408-989e-017458dd6c41","capabilities":{"browserName":"firefox","browserVersion":"70.0. ... ozprofile.fQphYfGfQNky","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201953528	Marionette	DEBUG	Closed connection 0
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201992273	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.YDtvGoo2bafL"
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201993054	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582201993054	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582201993054	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582201993054	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582201993122	Marionette	TRACE	Received observer notification profile-after-change
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201993181	Marionette	TRACE	Received observer notification toplevel-window-ready
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201993206	Marionette	TRACE	Received observer notification command-line-startup
+1582201993207	Marionette	TRACE	Received observer notification nsPref:changed
+1582201993207	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201993243	Marionette	TRACE	Received observer notification toplevel-window-ready
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201995107	Marionette	TRACE	Received observer notification marionette-startup-requested
+1582201995107	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201995135	Marionette	TRACE	All scripts recorded.
+1582201995136	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1582201995136	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1582201995136	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1582201995136	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1582201995136	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1582201995137	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1582201995137	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1582201995137	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1582201995137	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1582201995137	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1582201995137	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1582201995137	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1582201995137	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1582201995138	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1582201995138	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1582201995138	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1582201995138	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1582201995138	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1582201995138	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1582201995138	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1582201995138	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1582201995138	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1582201995139	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1582201995139	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1582201995139	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1582201995139	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1582201995139	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1582201995139	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1582201995140	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1582201995140	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1582201995140	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1582201995167	Marionette	INFO	Listening on port 62438
+1582201995167	Marionette	DEBUG	Remote service is active
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201995573	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:62453
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201995574	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1582201995574	Marionette	WARN	TLS certificate errors will be ignored for this session
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201995591	Marionette	TRACE	[18] Frame script loaded
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201995598	Marionette	TRACE	[18] Frame script registered
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201995601	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"4f6af48c-f659-44b7-8b78-718d08c69c6a","capabilities":{"browserName":"firefox","browserVersion":"70.0. ... ozprofile.YDtvGoo2bafL","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201995605	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://120.52.157.131:58080/#/home/cooperation"}]
+1582201995611	Marionette	TRACE	[18] Received DOM event beforeunload for about:blank
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582201995735	Marionette	TRACE	[18] Received DOM event pagehide for about:blank
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582202021100	Marionette	TRACE	[18] Received DOM event DOMContentLoaded for http://120.52.157.131:58080/#/home/cooperation
+JavaScript error: http://120.52.157.131:58080/static/main.min.js?rev=c8ecca6ec58f17d70e9278526c7b93a6, line 1: TypeError: e is null
+1582202061196	Marionette	TRACE	[18] Received DOM event pageshow for http://120.52.157.131:58080/#/home/cooperation
+1582202061199	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1582202062206	Marionette	DEBUG	0 -> [0,3,"WebDriver:MaximizeWindow",{}]
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582202062551	Marionette	DEBUG	0 <- [1,3,null,{"x":1912,"y":-8,"width":1936,"height":1096}]
+1582202062564	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582202062567	Marionette	DEBUG	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"68db655e-57fd-47b1-abbc-1e8f9ec93d1f"}}]
+1582202062572	Marionette	DEBUG	0 -> [0,5,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"68db655e-57fd-47b1-abbc-1e8f9ec93d1f","element-6066-11e4-a52e-4f735466cec ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1582202062582	Marionette	DEBUG	0 <- [1,5,null,{"value":true}]
+1582202062599	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582202062600	Marionette	DEBUG	0 <- [1,6,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"68db655e-57fd-47b1-abbc-1e8f9ec93d1f"}}]
+1582202062602	Marionette	DEBUG	0 -> [0,7,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"68db655e-57fd-47b1-abbc-1e8f9ec93d1f","element-6066-11e4-a52e-4f735466cec ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582202062605	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1582202062607	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582202062608	Marionette	DEBUG	0 <- [1,8,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"68db655e-57fd-47b1-abbc-1e8f9ec93d1f"}}]
+1582202062610	Marionette	DEBUG	0 -> [0,9,"WebDriver:ElementClear",{"id":"68db655e-57fd-47b1-abbc-1e8f9ec93d1f"}]
+1582202062613	Marionette	DEBUG	0 <- [1,9,null,{"value":null}]
+1582202062615	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582202062616	Marionette	DEBUG	0 <- [1,10,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"68db655e-57fd-47b1-abbc-1e8f9ec93d1f"}}]
+1582202062619	Marionette	DEBUG	0 -> [0,11,"WebDriver:ElementSendKeys",{"id":"68db655e-57fd-47b1-abbc-1e8f9ec93d1f","text":"qiaolin","value":["q","i","a","o","l","i","n"]}]
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582202062640	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1582202062642	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582202062643	Marionette	DEBUG	0 <- [1,12,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"68db655e-57fd-47b1-abbc-1e8f9ec93d1f"}}]
+1582202062649	Marionette	DEBUG	0 -> [0,13,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"68db655e-57fd-47b1-abbc-1e8f9ec93d1f","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582202062653	Marionette	DEBUG	0 <- [1,13,null,{"value":null}]
+1582202062657	Marionette	DEBUG	0 -> [0,14,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582202062659	Marionette	DEBUG	0 <- [1,14,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2008a4f5-6802-4560-9f53-5e38e157ba06"}}]
+1582202062662	Marionette	DEBUG	0 -> [0,15,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"2008a4f5-6802-4560-9f53-5e38e157ba06","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1582202062671	Marionette	DEBUG	0 <- [1,15,null,{"value":true}]
+1582202062673	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582202062674	Marionette	DEBUG	0 <- [1,16,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2008a4f5-6802-4560-9f53-5e38e157ba06"}}]
+1582202062675	Marionette	DEBUG	0 -> [0,17,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"2008a4f5-6802-4560-9f53-5e38e157ba06","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582202062677	Marionette	DEBUG	0 <- [1,17,null,{"value":null}]
+1582202062679	Marionette	DEBUG	0 -> [0,18,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582202062680	Marionette	DEBUG	0 <- [1,18,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2008a4f5-6802-4560-9f53-5e38e157ba06"}}]
+1582202062686	Marionette	DEBUG	0 -> [0,19,"WebDriver:ElementClear",{"id":"2008a4f5-6802-4560-9f53-5e38e157ba06"}]
+1582202062689	Marionette	DEBUG	0 <- [1,19,null,{"value":null}]
+1582202062691	Marionette	DEBUG	0 -> [0,20,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582202062692	Marionette	DEBUG	0 <- [1,20,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2008a4f5-6802-4560-9f53-5e38e157ba06"}}]
+1582202062693	Marionette	DEBUG	0 -> [0,21,"WebDriver:ElementSendKeys",{"id":"2008a4f5-6802-4560-9f53-5e38e157ba06","text":"ChinaTower1234","value":["C","h","i","n","a","T","o","w","e","r","1","2","3","4"]}]
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582202062715	Marionette	DEBUG	0 <- [1,21,null,{"value":null}]
+1582202062717	Marionette	DEBUG	0 -> [0,22,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582202062721	Marionette	DEBUG	0 <- [1,22,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2008a4f5-6802-4560-9f53-5e38e157ba06"}}]
+1582202062723	Marionette	DEBUG	0 -> [0,23,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"2008a4f5-6802-4560-9f53-5e38e157ba06","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582202062724	Marionette	DEBUG	0 <- [1,23,null,{"value":null}]
+1582202062728	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"line center\"]/button"}]
+1582202062730	Marionette	DEBUG	0 <- [1,24,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"03519f9b-91de-4bea-8930-92c1189ff983"}}]
+1582202062732	Marionette	DEBUG	0 -> [0,25,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"03519f9b-91de-4bea-8930-92c1189ff983","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1582202062742	Marionette	DEBUG	0 <- [1,25,null,{"value":true}]
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582202063245	Marionette	DEBUG	0 -> [0,26,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"line center\"]/button"}]
+1582202063247	Marionette	DEBUG	0 <- [1,26,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"03519f9b-91de-4bea-8930-92c1189ff983"}}]
+1582202063251	Marionette	DEBUG	0 -> [0,27,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"03519f9b-91de-4bea-8930-92c1189ff983","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582202063254	Marionette	DEBUG	0 <- [1,27,null,{"value":null}]
+1582202063257	Marionette	DEBUG	0 -> [0,28,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"line center\"]/button"}]
+1582202063259	Marionette	DEBUG	0 <- [1,28,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"03519f9b-91de-4bea-8930-92c1189ff983"}}]
+1582202063262	Marionette	DEBUG	0 -> [0,29,"WebDriver:ElementClick",{"id":"03519f9b-91de-4bea-8930-92c1189ff983"}]
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582202063491	Marionette	DEBUG	[18] Canceled page load listener because no navigation has been detected
+1582202063491	Marionette	DEBUG	0 <- [1,29,null,{"value":null}]
+1582202063494	Marionette	DEBUG	0 -> [0,30,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"line center\"]/button"}]
+1582202063496	Marionette	DEBUG	0 <- [1,30,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"03519f9b-91de-4bea-8930-92c1189ff983"}}]
+1582202063498	Marionette	DEBUG	0 -> [0,31,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"03519f9b-91de-4bea-8930-92c1189ff983","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582202063501	Marionette	DEBUG	0 <- [1,31,null,{"value":null}]
+1582202064506	Marionette	DEBUG	0 -> [0,32,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"text name\"]"}]
+1582202064507	Marionette	DEBUG	0 <- [1,32,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"cdbe6c60-8966-4fd7-97b7-d8eaf15622d3"}}]
+1582202064512	Marionette	DEBUG	0 -> [0,33,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"cdbe6c60-8966-4fd7-97b7-d8eaf15622d3","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1582202064523	Marionette	DEBUG	0 <- [1,33,null,{"value":true}]
+1582202064525	Marionette	DEBUG	0 -> [0,34,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"text name\"]"}]
+1582202064527	Marionette	DEBUG	0 <- [1,34,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"cdbe6c60-8966-4fd7-97b7-d8eaf15622d3"}}]
+1582202064529	Marionette	DEBUG	0 -> [0,35,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"cdbe6c60-8966-4fd7-97b7-d8eaf15622d3","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582202064530	Marionette	DEBUG	0 <- [1,35,null,{"value":null}]
+1582202064532	Marionette	DEBUG	0 -> [0,36,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"text name\"]"}]
+1582202064533	Marionette	DEBUG	0 <- [1,36,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"cdbe6c60-8966-4fd7-97b7-d8eaf15622d3"}}]
+1582202064535	Marionette	DEBUG	0 -> [0,37,"WebDriver:GetElementText",{"id":"cdbe6c60-8966-4fd7-97b7-d8eaf15622d3"}]
+1582202064544	Marionette	DEBUG	0 <- [1,37,null,{"value":"乔琳，欢迎您登入系统"}]
+1582202064548	Marionette	DEBUG	0 -> [0,38,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class=\"navigator-container\"]/div/div/img"}]
+1582202064549	Marionette	DEBUG	0 <- [1,38,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e84bdeb0-7612-4b08-9467-4bdef3f8e005"}}]
+1582202064551	Marionette	DEBUG	0 -> [0,39,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class=\"navigator-container\"]/div/div/img"}]
+1582202064552	Marionette	DEBUG	0 <- [1,39,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e84bdeb0-7612-4b08-9467-4bdef3f8e005"}}]
+1582202064553	Marionette	DEBUG	0 -> [0,40,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"e84bdeb0-7612-4b08-9467-4bdef3f8e005","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582202064554	Marionette	DEBUG	0 <- [1,40,null,{"value":null}]
+1582202064556	Marionette	DEBUG	0 -> [0,41,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":250,"origin":{"element-6066-11e4-a52e-4f735466cecf":"e84 ... "parameters":{"pointerType":"mouse"},"type":"pointer"},{"actions":[{"duration":0,"type":"pause"}],"id":"key","type":"key"}]}]
+1582202064560	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1582202064813	Marionette	DEBUG	0 <- [1,41,null,{"value":null}]
+1582202064815	Marionette	DEBUG	0 -> [0,42,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class=\"navigator-container\"]/div/div/img"}]
+1582202064817	Marionette	DEBUG	0 <- [1,42,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e84bdeb0-7612-4b08-9467-4bdef3f8e005"}}]
+1582202064819	Marionette	DEBUG	0 -> [0,43,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"e84bdeb0-7612-4b08-9467-4bdef3f8e005","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582202064821	Marionette	DEBUG	0 <- [1,43,null,{"value":null}]
+1582202066830	Marionette	DEBUG	0 -> [0,44,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"info user containerbox\"]"}]
+1582202066835	Marionette	DEBUG	0 <- [1,44,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d3a36192-8f7b-4a10-9a52-943c6d7f3b68"}}]
+1582202066839	Marionette	DEBUG	0 -> [0,45,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"info user containerbox\"]"}]
+1582202066843	Marionette	DEBUG	0 <- [1,45,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d3a36192-8f7b-4a10-9a52-943c6d7f3b68"}}]
+1582202066847	Marionette	DEBUG	0 -> [0,46,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"d3a36192-8f7b-4a10-9a52-943c6d7f3b68","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582202066852	Marionette	DEBUG	0 <- [1,46,null,{"value":null}]
+1582202066857	Marionette	DEBUG	0 -> [0,47,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":250,"origin":{"element-6066-11e4-a52e-4f735466cecf":"d3a ... "parameters":{"pointerType":"mouse"},"type":"pointer"},{"actions":[{"duration":0,"type":"pause"}],"id":"key","type":"key"}]}]
+1582202066865	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1582202067132	Marionette	DEBUG	0 <- [1,47,null,{"value":null}]
+1582202067135	Marionette	DEBUG	0 -> [0,48,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"info user containerbox\"]"}]
+1582202067136	Marionette	DEBUG	0 <- [1,48,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d3a36192-8f7b-4a10-9a52-943c6d7f3b68"}}]
+1582202067138	Marionette	DEBUG	0 -> [0,49,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"d3a36192-8f7b-4a10-9a52-943c6d7f3b68","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582202067140	Marionette	DEBUG	0 <- [1,49,null,{"value":null}]
+1582202069149	Marionette	DEBUG	0 -> [0,50,"WebDriver:FindElement",{"using":"xpath","value":"//*[contains(text(),\"退出登录\")]"}]
+1582202069152	Marionette	DEBUG	0 <- [1,50,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9b5a5136-d2cb-4af1-9561-98436bf9201c"}}]
+1582202069159	Marionette	DEBUG	0 -> [0,51,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"9b5a5136-d2cb-4af1-9561-98436bf9201c","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1582202069176	Marionette	DEBUG	0 <- [1,51,null,{"value":true}]
+1582202069679	Marionette	DEBUG	0 -> [0,52,"WebDriver:FindElement",{"using":"xpath","value":"//*[contains(text(),\"退出登录\")]"}]
+1582202069680	Marionette	DEBUG	0 <- [1,52,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9b5a5136-d2cb-4af1-9561-98436bf9201c"}}]
+1582202069682	Marionette	DEBUG	0 -> [0,53,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"9b5a5136-d2cb-4af1-9561-98436bf9201c","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582202069683	Marionette	DEBUG	0 <- [1,53,null,{"value":null}]
+1582202069686	Marionette	DEBUG	0 -> [0,54,"WebDriver:FindElement",{"using":"xpath","value":"//*[contains(text(),\"退出登录\")]"}]
+1582202069688	Marionette	DEBUG	0 <- [1,54,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9b5a5136-d2cb-4af1-9561-98436bf9201c"}}]
+1582202069689	Marionette	DEBUG	0 -> [0,55,"WebDriver:ElementClick",{"id":"9b5a5136-d2cb-4af1-9561-98436bf9201c"}]
+1582202069910	Marionette	DEBUG	[18] Canceled page load listener because no navigation has been detected
+1582202069910	Marionette	DEBUG	0 <- [1,55,null,{"value":null}]
+1582202069912	Marionette	DEBUG	0 -> [0,56,"WebDriver:FindElement",{"using":"xpath","value":"//*[contains(text(),\"退出登录\")]"}]
+1582202069914	Marionette	DEBUG	0 <- [1,56,{"error":"no such element","message":"Unable to locate element: //*[contains(text(),\"退出登录\")]","stacktrace":"WebDriver ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:343:16\n"},null]
+JavaScript error: , line 0: uncaught exception: Object
+1582202074916	Marionette	DEBUG	0 -> [0,57,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1582202074917	Marionette	INFO	Stopped listening on port 62438
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582202074951	Marionette	TRACE	Received observer notification quit-application
+1582202074953	Marionette	DEBUG	0 <- [1,57,null,{"cause":"shutdown"}]
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+[Child 13392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13392, Chrome_C1582202074973	Marionette	DEBUG	0 -> [0,58,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1582202074973	Marionette	DEBUG	0 <- [1,58,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+[Child 5820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1582202074979	Marionette	DEBUG	Closed connection 0
+[Child 13668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13668, Chrome_ChildThread] WARNING: pipe error: 1582202075065	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1582202075065	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1582202075065	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1582202075065	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1582202075065	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1582202075065	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1582202075065	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1582202075065	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1582202075066	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1582202075066	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1582202075066	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1582202075066	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1582202075066	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1582202075066	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1582202075066	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1582202075066	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1582202075066	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1582202075066	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1582202075066	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1582202075066	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1582202075067	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1582202075067	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1582202075067	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1582202075067	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1582202075067	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1582202075067	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1582202075067	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1582202075067	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1582202075067	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1582202075067	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1582202075067	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1582202075067	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1582202075067	Marionette	DEBUG	Remote service is inactive
+[GPU 1
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+4016, Chrome_ChildThread] WARN
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/

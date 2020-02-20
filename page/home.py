@@ -7,7 +7,6 @@ class home(base):
 
     # 打开浏览器
     def open_b(self):
-        self.log.info('正在打开浏览器...地址为 %s' % self.url)
         self.open()
 
     # 登录

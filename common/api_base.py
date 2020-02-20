@@ -1,41 +1,14 @@
 
 import datetime
+from common.log import log
 import xlrd, requests, unittest, time, json, pymysql
-import logging
+
+log = log().ll("./logs/api_log.txt")
 
 
-# 日志模块
-class logere():
-
-
-    def ll(self):
-        # 创建一个logger
-        logger = logging.getLogger()
-        logger.setLevel(logging.INFO)
-
-        # 创建一个handler，用于写入日志文件
-        logs_path = "./logs/api_log.txt"  # 指定文件输出路径，注意logs是个文件夹，一定要加上/，不然会导致输出路径错误，把logs变成文件名的一部分了
-        fh = logging.FileHandler(logs_path, mode='a', encoding='utf-8')  # 指定utf-8格式编码，避免输出的日志文本乱码
-        fh.setLevel(logging.DEBUG)
-
-        # 创建一个handler，用于将日志输出到控制台
-        ch = logging.StreamHandler()
-        ch.setLevel(logging.DEBUG)
-
-        # 定义handler的输出格式
-        formatter = logging.Formatter('%(asctime)s - '
-                                      '%(levelname)s - '
-                                      '%(filename)s[line:%(lineno)d] - '
-                                      '%(funcName)s - %(message)s')
-        fh.setFormatter(formatter)
-        ch.setFormatter(formatter)
-
-        # 给logger添加handler
-        logger.addHandler(fh)
-        logger.addHandler(ch)
-        return logger
-
-log = logere().ll()
+# now_time = datetime.datetime.now() 获取时间
+# t1 = (now_time + datetime.timedelta(seconds=+3)).strftime("%Y-%m-%d %H:%M:%S") # 当前时间+3
+# t2 = (now_time + datetime.timedelta(seconds=+15)).strftime("%Y-%m-%d %H:%M:%S") # 当前时间+15
 
 
 # 接口测试类
@@ -157,9 +130,7 @@ class base():
         :param data: 要遍历的字典
         :return: 返回删除空值的键值对后的字典
         """
-        # now_time = datetime.datetime.now()
-        # t1 = (now_time + datetime.timedelta(seconds=+3)).strftime("%Y-%m-%d %H:%M:%S") # 当前时间+3
-        # t2 = (now_time + datetime.timedelta(seconds=+15)).strftime("%Y-%m-%d %H:%M:%S") # 当前时间+15
+
 
         t = time.strftime('%Y/%m/%d %H:%M:%S', time.localtime())
         xx = data
