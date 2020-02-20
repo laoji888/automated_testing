@@ -65,6 +65,7 @@ def my_tese():
     return discover
 
 
+
 if __name__ == "__main__":
     report_path = "./report_ui/" + "UI_" + currentime + ".html"  # 报告保存路径
     fp = open(report_path, "wb")
