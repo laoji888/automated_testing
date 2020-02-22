@@ -17,7 +17,7 @@ class base():
     #  初始化方法
     def __init__(self, s_url, s_data, filepath, param_sheet, assert_sheet):
         """
-初始化方法
+        初始化方法
         :param self.dir_case: 参数文件存放路径
         :param s_url: 登录接口url
         :param s_data: 登录接口的参数
@@ -57,7 +57,7 @@ class base():
     # 获取url
     def get_url(self, nrows=0, ncols=0):
         """
-获取url地址
+        获取url地址
         :param nrows: 行
         :param ncols: 列
         :return:
@@ -72,7 +72,7 @@ class base():
     # 遍历xlsx文件的参数，并以字典类型输出
     def get_data(self):
         """
-读取Excel里配置好的接口参数，以字典的方式存放
+        读取Excel里配置好的接口参数，以字典的方式存放
         """
         data = xlrd.open_workbook(self.dir_case)
         table = data.sheets()[self.param]
@@ -103,7 +103,7 @@ class base():
     # 读取excl，获得实际结果命令和预期结果
     def get_assert(self, nrow, ncol=0):
         """
-读取接口的预期结果和获取实际结果的命令
+        读取接口的预期结果和获取实际结果的命令
         :param nrow: 要读取的行数
         :param ncol: 要读取的列数，默认是0
         :return: 返回读取的数据
@@ -126,7 +126,7 @@ class base():
     # 遍历字典的值是否为空或null，如果为空就删除该键值对，如果为null就把该键改成 “”。如果不传参数Excel为空即可，如果想参数值为空就写null。
     def set_dict(self, data):
         """
-遍历字典的值是否为空或null，如果为空就删除该键值对，如果为null就把该键改成 “”，空值不等于null,如果读取的值是time就转换成当前时间
+        遍历字典的值是否为空或null，如果为空就删除该键值对，如果为null就把该键改成 “”，空值不等于null,如果读取的值是time就转换成当前时间
         :param data: 要遍历的字典
         :return: 返回删除空值的键值对后的字典
         """
@@ -215,7 +215,11 @@ class base():
             log.info("post请求成功")
 
     # 运行post请求，参数为json
-    def run_post_json(self, releaseTime=0, endTime=0):
+    def run_post_json(self):
+        """
+        post请求，请求参数为json，参数以字典的方式存在每行的第一列
+        :return:
+        """
         self.header['Content-Type'] = "application/json;charset=UTF-8"
         s = self.add_session()
         data = xlrd.open_workbook(self.dir_case)
@@ -253,7 +257,7 @@ class base():
     # post请求，上传文件
     def run_post_upload(self, file="file.txt"):
         """
-
+        上传文件
         :param file: 上传的文件名
         """
         s = self.add_session()

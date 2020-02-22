@@ -125,13 +125,12 @@ def msql(sql):
 
 from selenium import webdriver
 from time import sleep
+
 dr = webdriver.Firefox()
 dr.get("http://120.52.157.131:58080/#/home/cooperation")
-sleep(30)
-dr.find_element_by_xpath('//input[@placeholder="请输入账号"]').send_keys("123")
-sleep(2)
-aa = dr.find_element_by_xpath('//input[@placeholder="请输入账号"]')
-aa.send_keys(Keys.CONTROL + "a")
-aa.send_keys(Keys.ENTER)
-sleep(3)
+sleep(10)
+
+
+
+
 

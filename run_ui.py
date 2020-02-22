@@ -5,6 +5,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 
+
 currentime = time.strftime("%Y-%m-%d %H-%M-%S")  # 获取当前时间
 case_path = "./case"  # 测试用例路径
 file_path = './report_ui'  # 测试报告路径
@@ -19,7 +20,7 @@ def repotr_path(file_path):  # 给测试报告排序，返回路径，并控制�
     count = os.listdir(file_path)
 
     # 控制报告的数量
-    if len(count) > 5:
+    if len(count) > 2:
         count.sort()
         ph = './report_ui/' + count[0]
         os.remove(ph)
@@ -70,11 +71,11 @@ if __name__ == "__main__":
     report_path = "./report_ui/" + "UI_" + currentime + ".html"  # 报告保存路径
     fp = open(report_path, "wb")
     runner = HTMLTestRunner.HTMLTestRunner(stream=fp,
-                                           title="tssai自动化测试报告",
+                                           title="csms自动化测试报告",
                                            description="自动化测试报告")
     runner.run(my_tese())  # 执行测试用例
     fp.close()  # 关闭文件
 
     report = repotr_path(file_path)
-    e = ['jiyananid@163.com']  # 多个收件人
-    email(report, e)
+    # e = ['jiyananid@163.com']  # 多个收件人
+    # email(report, e)
