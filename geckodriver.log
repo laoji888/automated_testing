@@ -7322,3 +7322,6 @@ LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US
 LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
 LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
 LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582355712477	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.EvmF3uvUdhs8"
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/

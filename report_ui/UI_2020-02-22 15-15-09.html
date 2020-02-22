@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>tssai自动化测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2020-02-20 20:40:33</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:45.449600</p>
-<p class='attribute'><strong>Status:</strong> Failure 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2020-02-22 15:15:09</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:04.694268</p>
+<p class='attribute'><strong>Status:</strong> Error 1</p>
 
 <p class='description'>自动化测试报告</p>
 </div>
@@ -221,22 +221,22 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='failClass'>
+<tr class='errorClass'>
     <td>ui_login.CsmsTest</td>
     <td>1</td>
     <td>0</td>
-    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
 <tr id='ft1.1' class='none'>
-    <td class='failCase'><div class='testcase'>test_login</div></td>
+    <td class='errorCase'><div class='testcase'>test_login</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
     <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        fail</a>
+        error</a>
 
     <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
@@ -246,13 +246,35 @@ function showOutput(id, name) {
         <pre>
         
 ft1.1: Traceback (most recent call last):
-  File "D:\python_script\automated_testing\case\ui_login.py", line 20, in test_login
-    self.assertIn("习近平", xx.text, msg='错误')
-AssertionError: '习近平' not found in '登录' : 错误
+  File "D:\python_script\automated_testing\case\ui_login.py", line 9, in setUp
+    self.driver = webdriver.Firefox()
+  File "C:\poython3.6.2\lib\site-packages\selenium\webdriver\firefox\webdriver.py", line 174, in __init__
+    keep_alive=True)
+  File "C:\poython3.6.2\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\poython3.6.2\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\poython3.6.2\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\poython3.6.2\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: permission denied
+
 Traceback (most recent call last):
-  File "D:\python_script\automated_testing\case\ui_login.py", line 20, in test_login
-    self.assertIn("习近平", xx.text, msg='错误')
-AssertionError: '习近平' not found in '登录' : 错误
+  File "D:\python_script\automated_testing\case\ui_login.py", line 9, in setUp
+    self.driver = webdriver.Firefox()
+  File "C:\poython3.6.2\lib\site-packages\selenium\webdriver\firefox\webdriver.py", line 174, in __init__
+    keep_alive=True)
+  File "C:\poython3.6.2\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\poython3.6.2\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\poython3.6.2\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\poython3.6.2\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: permission denied
+
 
 
         </pre>
@@ -266,8 +288,8 @@ AssertionError: '习近平' not found in '登录' : 错误
     <td>Total</td>
     <td>1</td>
     <td>0</td>
-    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>&nbsp;</td>
 </tr>
 </table>
