@@ -7325,3 +7325,318 @@ LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US
 1582355712477	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.EvmF3uvUdhs8"
 LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
 LdrLoadDll: Blocking load of 'safemon64.dll' -- see http://www.mozilla.com/en-US/blocklist/
+1582356393909	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.OlTcpGR6HgEz"
+1582356395141	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582356395375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582356395375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582356395375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582356395375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582356395440	Marionette	TRACE	Received observer notification profile-after-change
+1582356395494	Marionette	TRACE	Received observer notification toplevel-window-ready
+1582356395509	Marionette	TRACE	Received observer notification command-line-startup
+1582356395509	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1582356395542	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1582356397212	Marionette	TRACE	Received observer notification marionette-startup-requested
+1582356397212	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1582356397220	Marionette	TRACE	All scripts recorded.
+1582356397220	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1582356397220	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1582356397220	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1582356397221	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1582356397221	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1582356397221	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1582356397222	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1582356397222	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1582356397222	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1582356397222	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1582356397222	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1582356397222	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1582356397222	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1582356397223	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1582356397223	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1582356397223	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1582356397223	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1582356397223	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1582356397223	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1582356397224	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1582356397224	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1582356397224	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1582356397224	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1582356397224	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1582356397224	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1582356397224	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1582356397224	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1582356397225	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1582356397225	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1582356397225	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1582356397225	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1582356397250	Marionette	INFO	Listening on port 61470
+1582356397250	Marionette	DEBUG	Marionette is listening
+1582356397321	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:61477
+1582356397322	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1582356397322	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582356397338	Marionette	TRACE	[19] Frame script loaded
+1582356397344	Marionette	TRACE	[19] Frame script registered
+1582356397345	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"7d825d65-176c-4972-84ea-2e5825ac0819","capabilities":{"browserName":"firefox","browserVersion":"73.0. ... ozprofile.OlTcpGR6HgEz","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1582356397376	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"http://120.52.157.131:58080/#/home/cooperation"}]
+1582356397380	Marionette	TRACE	[19] Received DOM event beforeunload for about:blank
+1582356397474	Marionette	TRACE	[19] Received DOM event pagehide for about:blank
+1582356402662	Marionette	TRACE	[19] Received DOM event DOMContentLoaded for http://120.52.157.131:58080/#/home/cooperation
+JavaScript error: http://120.52.157.131:58080/static/main.min.js?rev=c8ecca6ec58f17d70e9278526c7b93a6, line 1: TypeError: e is null
+1582356407852	Marionette	TRACE	[19] Received DOM event pageshow for http://120.52.157.131:58080/#/home/cooperation
+1582356407853	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1582356408858	Marionette	DEBUG	0 -> [0,3,"WebDriver:MaximizeWindow",{}]
+1582356409120	Marionette	DEBUG	0 <- [1,3,null,{"x":-8,"y":-8,"width":1936,"height":1056}]
+1582356409168	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582356409173	Marionette	DEBUG	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0f47c843-4c05-452a-8b5b-0fcccf00878b"}}]
+1582356409177	Marionette	DEBUG	0 -> [0,5,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"0f47c843-4c05-452a-8b5b-0fcccf00878b","element-6066-11e4-a52e-4f735466cec ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1582356409189	Marionette	DEBUG	0 <- [1,5,null,{"value":true}]
+1582356409191	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582356409193	Marionette	DEBUG	0 <- [1,6,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0f47c843-4c05-452a-8b5b-0fcccf00878b"}}]
+1582356409194	Marionette	DEBUG	0 -> [0,7,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"0f47c843-4c05-452a-8b5b-0fcccf00878b","element-6066-11e4-a52e-4f735466cec ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356409196	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1582356409198	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582356409199	Marionette	DEBUG	0 <- [1,8,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0f47c843-4c05-452a-8b5b-0fcccf00878b"}}]
+1582356409201	Marionette	DEBUG	0 -> [0,9,"WebDriver:ElementSendKeys",{"id":"0f47c843-4c05-452a-8b5b-0fcccf00878b","text":"a","value":["","a"]}]
+1582356409210	Marionette	DEBUG	0 <- [1,9,null,{"value":null}]
+1582356409214	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582356409215	Marionette	DEBUG	0 <- [1,10,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0f47c843-4c05-452a-8b5b-0fcccf00878b"}}]
+1582356409217	Marionette	DEBUG	0 -> [0,11,"WebDriver:ElementSendKeys",{"id":"0f47c843-4c05-452a-8b5b-0fcccf00878b","text":"","value":[""]}]
+1582356409222	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1582356409224	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582356409225	Marionette	DEBUG	0 <- [1,12,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0f47c843-4c05-452a-8b5b-0fcccf00878b"}}]
+1582356409227	Marionette	DEBUG	0 -> [0,13,"WebDriver:ElementSendKeys",{"id":"0f47c843-4c05-452a-8b5b-0fcccf00878b","text":"qiaolin","value":["q","i","a","o","l","i","n"]}]
+1582356409245	Marionette	DEBUG	0 <- [1,13,null,{"value":null}]
+1582356409247	Marionette	DEBUG	0 -> [0,14,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582356409249	Marionette	DEBUG	0 <- [1,14,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0f47c843-4c05-452a-8b5b-0fcccf00878b"}}]
+1582356409251	Marionette	DEBUG	0 -> [0,15,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"0f47c843-4c05-452a-8b5b-0fcccf00878b","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356409253	Marionette	DEBUG	0 <- [1,15,null,{"value":null}]
+1582356409257	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582356409265	Marionette	DEBUG	0 <- [1,16,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"807af558-749c-4494-97eb-44932cc99223"}}]
+1582356409269	Marionette	DEBUG	0 -> [0,17,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"807af558-749c-4494-97eb-44932cc99223","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1582356409278	Marionette	DEBUG	0 <- [1,17,null,{"value":true}]
+1582356409280	Marionette	DEBUG	0 -> [0,18,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582356409281	Marionette	DEBUG	0 <- [1,18,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"807af558-749c-4494-97eb-44932cc99223"}}]
+1582356409282	Marionette	DEBUG	0 -> [0,19,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"807af558-749c-4494-97eb-44932cc99223","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356409287	Marionette	DEBUG	0 <- [1,19,null,{"value":null}]
+1582356409290	Marionette	DEBUG	0 -> [0,20,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582356409299	Marionette	DEBUG	0 <- [1,20,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"807af558-749c-4494-97eb-44932cc99223"}}]
+1582356409301	Marionette	DEBUG	0 -> [0,21,"WebDriver:ElementSendKeys",{"id":"807af558-749c-4494-97eb-44932cc99223","text":"a","value":["","a"]}]
+1582356409309	Marionette	DEBUG	0 <- [1,21,null,{"value":null}]
+1582356409311	Marionette	DEBUG	0 -> [0,22,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582356409315	Marionette	DEBUG	0 <- [1,22,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"807af558-749c-4494-97eb-44932cc99223"}}]
+1582356409317	Marionette	DEBUG	0 -> [0,23,"WebDriver:ElementSendKeys",{"id":"807af558-749c-4494-97eb-44932cc99223","text":"","value":[""]}]
+1582356409324	Marionette	DEBUG	0 <- [1,23,null,{"value":null}]
+1582356409327	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582356409328	Marionette	DEBUG	0 <- [1,24,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"807af558-749c-4494-97eb-44932cc99223"}}]
+1582356409330	Marionette	DEBUG	0 -> [0,25,"WebDriver:ElementSendKeys",{"id":"807af558-749c-4494-97eb-44932cc99223","text":"ChinaTower1234","value":["C","h","i","n","a","T","o","w","e","r","1","2","3","4"]}]
+1582356409349	Marionette	DEBUG	0 <- [1,25,null,{"value":null}]
+1582356409352	Marionette	DEBUG	0 -> [0,26,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582356409369	Marionette	DEBUG	0 <- [1,26,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"807af558-749c-4494-97eb-44932cc99223"}}]
+1582356409371	Marionette	DEBUG	0 -> [0,27,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"807af558-749c-4494-97eb-44932cc99223","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356409372	Marionette	DEBUG	0 <- [1,27,null,{"value":null}]
+1582356409376	Marionette	DEBUG	0 -> [0,28,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"line center\"]/button"}]
+1582356409377	Marionette	DEBUG	0 <- [1,28,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"184841dd-b073-4383-b80b-e9cd8c3be607"}}]
+1582356409381	Marionette	DEBUG	0 -> [0,29,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"184841dd-b073-4383-b80b-e9cd8c3be607","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1582356409389	Marionette	DEBUG	0 <- [1,29,null,{"value":true}]
+1582356409892	Marionette	DEBUG	0 -> [0,30,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"line center\"]/button"}]
+1582356409894	Marionette	DEBUG	0 <- [1,30,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"184841dd-b073-4383-b80b-e9cd8c3be607"}}]
+1582356409899	Marionette	DEBUG	0 -> [0,31,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"184841dd-b073-4383-b80b-e9cd8c3be607","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356409902	Marionette	DEBUG	0 <- [1,31,null,{"value":null}]
+1582356409907	Marionette	DEBUG	0 -> [0,32,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"line center\"]/button"}]
+1582356409909	Marionette	DEBUG	0 <- [1,32,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"184841dd-b073-4383-b80b-e9cd8c3be607"}}]
+1582356409913	Marionette	DEBUG	0 -> [0,33,"WebDriver:ElementClick",{"id":"184841dd-b073-4383-b80b-e9cd8c3be607"}]
+1582356410146	Marionette	DEBUG	[19] Canceled page load listener because no navigation has been detected
+1582356410147	Marionette	DEBUG	0 <- [1,33,null,{"value":null}]
+1582356410152	Marionette	DEBUG	0 -> [0,34,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"line center\"]/button"}]
+1582356410156	Marionette	DEBUG	0 <- [1,34,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"184841dd-b073-4383-b80b-e9cd8c3be607"}}]
+1582356410162	Marionette	DEBUG	0 -> [0,35,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"184841dd-b073-4383-b80b-e9cd8c3be607","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356410256	Marionette	DEBUG	0 <- [1,35,{"error":"stale element reference","message":"The element reference of <button class=\"el-button el-button--danger el-b ... ch/</req<@chrome://marionette/content/listener.js:521:29\ndispatch/<@chrome://marionette/content/listener.js:520:15\n"},null]
+1582356411263	Marionette	DEBUG	0 -> [0,36,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"text name\"]"}]
+1582356411264	Marionette	DEBUG	0 <- [1,36,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"678ab73d-be52-4907-826c-df90b98f724a"}}]
+1582356411269	Marionette	DEBUG	0 -> [0,37,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"678ab73d-be52-4907-826c-df90b98f724a","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1582356411279	Marionette	DEBUG	0 <- [1,37,null,{"value":true}]
+1582356411282	Marionette	DEBUG	0 -> [0,38,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"text name\"]"}]
+1582356411283	Marionette	DEBUG	0 <- [1,38,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"678ab73d-be52-4907-826c-df90b98f724a"}}]
+1582356411285	Marionette	DEBUG	0 -> [0,39,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"678ab73d-be52-4907-826c-df90b98f724a","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356411288	Marionette	DEBUG	0 <- [1,39,null,{"value":null}]
+1582356411291	Marionette	DEBUG	0 -> [0,40,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"text name\"]"}]
+1582356411293	Marionette	DEBUG	0 <- [1,40,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"678ab73d-be52-4907-826c-df90b98f724a"}}]
+1582356411295	Marionette	DEBUG	0 -> [0,41,"WebDriver:GetElementText",{"id":"678ab73d-be52-4907-826c-df90b98f724a"}]
+1582356411304	Marionette	DEBUG	0 <- [1,41,null,{"value":"乔琳，欢迎您登入系统"}]
+1582356411309	Marionette	DEBUG	0 -> [0,42,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class=\"navigator-container\"]/div/div/img"}]
+1582356411312	Marionette	DEBUG	0 <- [1,42,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"44253452-344d-4505-8d72-92136d4b176c"}}]
+1582356411313	Marionette	DEBUG	0 -> [0,43,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class=\"navigator-container\"]/div/div/img"}]
+1582356411314	Marionette	DEBUG	0 <- [1,43,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"44253452-344d-4505-8d72-92136d4b176c"}}]
+1582356411316	Marionette	DEBUG	0 -> [0,44,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"44253452-344d-4505-8d72-92136d4b176c","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356411318	Marionette	DEBUG	0 <- [1,44,null,{"value":null}]
+1582356411320	Marionette	DEBUG	0 -> [0,45,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":250,"origin":{"element-6066-11e4-a52e-4f735466cecf":"442 ... "parameters":{"pointerType":"mouse"},"type":"pointer"},{"actions":[{"duration":0,"type":"pause"}],"id":"key","type":"key"}]}]
+1582356411324	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+Sleep@chrome://marionette/content/sync.js:282:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:850:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+1582356411577	Marionette	DEBUG	0 <- [1,45,null,{"value":null}]
+1582356411579	Marionette	DEBUG	0 -> [0,46,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class=\"navigator-container\"]/div/div/img"}]
+1582356411580	Marionette	DEBUG	0 <- [1,46,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"44253452-344d-4505-8d72-92136d4b176c"}}]
+1582356411581	Marionette	DEBUG	0 -> [0,47,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"44253452-344d-4505-8d72-92136d4b176c","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356411582	Marionette	DEBUG	0 <- [1,47,null,{"value":null}]
+1582356413598	Marionette	DEBUG	0 -> [0,48,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"info user containerbox\"]"}]
+1582356413609	Marionette	DEBUG	0 <- [1,48,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"073cab51-8d4b-489b-9df9-91564f00d616"}}]
+1582356413614	Marionette	DEBUG	0 -> [0,49,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"info user containerbox\"]"}]
+1582356413619	Marionette	DEBUG	0 <- [1,49,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"073cab51-8d4b-489b-9df9-91564f00d616"}}]
+1582356413622	Marionette	DEBUG	0 -> [0,50,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"073cab51-8d4b-489b-9df9-91564f00d616","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356413628	Marionette	DEBUG	0 <- [1,50,null,{"value":null}]
+1582356413632	Marionette	DEBUG	0 -> [0,51,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":250,"origin":{"element-6066-11e4-a52e-4f735466cecf":"073 ... "parameters":{"pointerType":"mouse"},"type":"pointer"},{"actions":[{"duration":0,"type":"pause"}],"id":"key","type":"key"}]}]
+1582356413645	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+Sleep@chrome://marionette/content/sync.js:282:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:850:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+1582356413935	Marionette	DEBUG	0 <- [1,51,null,{"value":null}]
+1582356413938	Marionette	DEBUG	0 -> [0,52,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"info user containerbox\"]"}]
+1582356413941	Marionette	DEBUG	0 <- [1,52,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"073cab51-8d4b-489b-9df9-91564f00d616"}}]
+1582356413945	Marionette	DEBUG	0 -> [0,53,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"073cab51-8d4b-489b-9df9-91564f00d616","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356413947	Marionette	DEBUG	0 <- [1,53,null,{"value":null}]
+1582356415959	Marionette	DEBUG	0 -> [0,54,"WebDriver:FindElement",{"using":"xpath","value":"//*[contains(text(),\"退出登录\")]"}]
+1582356415962	Marionette	DEBUG	0 <- [1,54,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"70fe34cd-0304-4bfc-977e-31104cd6b2a9"}}]
+1582356415973	Marionette	DEBUG	0 -> [0,55,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"70fe34cd-0304-4bfc-977e-31104cd6b2a9","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1582356415991	Marionette	DEBUG	0 <- [1,55,null,{"value":true}]
+1582356416495	Marionette	DEBUG	0 -> [0,56,"WebDriver:FindElement",{"using":"xpath","value":"//*[contains(text(),\"退出登录\")]"}]
+1582356416499	Marionette	DEBUG	0 <- [1,56,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"70fe34cd-0304-4bfc-977e-31104cd6b2a9"}}]
+1582356416506	Marionette	DEBUG	0 -> [0,57,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"70fe34cd-0304-4bfc-977e-31104cd6b2a9","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356416512	Marionette	DEBUG	0 <- [1,57,null,{"value":null}]
+1582356416520	Marionette	DEBUG	0 -> [0,58,"WebDriver:FindElement",{"using":"xpath","value":"//*[contains(text(),\"退出登录\")]"}]
+1582356416527	Marionette	DEBUG	0 <- [1,58,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"70fe34cd-0304-4bfc-977e-31104cd6b2a9"}}]
+1582356416532	Marionette	DEBUG	0 -> [0,59,"WebDriver:ElementClick",{"id":"70fe34cd-0304-4bfc-977e-31104cd6b2a9"}]
+1582356416787	Marionette	DEBUG	[19] Canceled page load listener because no navigation has been detected
+1582356416788	Marionette	DEBUG	0 <- [1,59,null,{"value":null}]
+1582356416792	Marionette	DEBUG	0 -> [0,60,"WebDriver:FindElement",{"using":"xpath","value":"//*[contains(text(),\"退出登录\")]"}]
+1582356416795	Marionette	DEBUG	0 <- [1,60,{"error":"no such element","message":"Unable to locate element: //*[contains(text(),\"退出登录\")]","stacktrace":"WebDriver ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:331:16\n"},null]
+1582356416800	Marionette	DEBUG	0 -> [0,61,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582356416802	Marionette	DEBUG	0 <- [1,61,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ef3e9704-7356-4bbf-803b-ec691edb360c"}}]
+1582356416807	Marionette	DEBUG	0 -> [0,62,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"ef3e9704-7356-4bbf-803b-ec691edb360c","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1582356416819	Marionette	DEBUG	0 <- [1,62,null,{"value":true}]
+1582356416822	Marionette	DEBUG	0 -> [0,63,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582356416823	Marionette	DEBUG	0 <- [1,63,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ef3e9704-7356-4bbf-803b-ec691edb360c"}}]
+1582356416824	Marionette	DEBUG	0 -> [0,64,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"ef3e9704-7356-4bbf-803b-ec691edb360c","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356416826	Marionette	DEBUG	0 <- [1,64,null,{"value":null}]
+1582356416827	Marionette	DEBUG	0 -> [0,65,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582356416828	Marionette	DEBUG	0 <- [1,65,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ef3e9704-7356-4bbf-803b-ec691edb360c"}}]
+1582356416829	Marionette	DEBUG	0 -> [0,66,"WebDriver:ElementSendKeys",{"id":"ef3e9704-7356-4bbf-803b-ec691edb360c","text":"a","value":["","a"]}]
+1582356416835	Marionette	DEBUG	0 <- [1,66,null,{"value":null}]
+1582356416837	Marionette	DEBUG	0 -> [0,67,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582356416838	Marionette	DEBUG	0 <- [1,67,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ef3e9704-7356-4bbf-803b-ec691edb360c"}}]
+1582356416839	Marionette	DEBUG	0 -> [0,68,"WebDriver:ElementSendKeys",{"id":"ef3e9704-7356-4bbf-803b-ec691edb360c","text":"","value":[""]}]
+1582356416859	Marionette	DEBUG	0 <- [1,68,null,{"value":null}]
+1582356416861	Marionette	DEBUG	0 -> [0,69,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+JavaScript error: , line 0: uncaught exception: Object
+1582356416862	Marionette	DEBUG	0 <- [1,69,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ef3e9704-7356-4bbf-803b-ec691edb360c"}}]
+1582356416864	Marionette	DEBUG	0 -> [0,70,"WebDriver:ElementSendKeys",{"id":"ef3e9704-7356-4bbf-803b-ec691edb360c","text":"kh-laoji008","value":["k","h","-","l","a","o","j","i","0","0","8"]}]
+1582356416889	Marionette	DEBUG	0 <- [1,70,null,{"value":null}]
+1582356416891	Marionette	DEBUG	0 -> [0,71,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入账号\"]"}]
+1582356416892	Marionette	DEBUG	0 <- [1,71,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ef3e9704-7356-4bbf-803b-ec691edb360c"}}]
+1582356416893	Marionette	DEBUG	0 -> [0,72,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"ef3e9704-7356-4bbf-803b-ec691edb360c","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356416895	Marionette	DEBUG	0 <- [1,72,null,{"value":null}]
+1582356416898	Marionette	DEBUG	0 -> [0,73,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582356416899	Marionette	DEBUG	0 <- [1,73,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7dcc48eb-0fd1-4709-a63b-56e4495f0d9a"}}]
+1582356416903	Marionette	DEBUG	0 -> [0,74,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"7dcc48eb-0fd1-4709-a63b-56e4495f0d9a","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1582356416910	Marionette	DEBUG	0 <- [1,74,null,{"value":true}]
+1582356416912	Marionette	DEBUG	0 -> [0,75,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582356416912	Marionette	DEBUG	0 <- [1,75,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7dcc48eb-0fd1-4709-a63b-56e4495f0d9a"}}]
+1582356416914	Marionette	DEBUG	0 -> [0,76,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"7dcc48eb-0fd1-4709-a63b-56e4495f0d9a","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356416915	Marionette	DEBUG	0 <- [1,76,null,{"value":null}]
+1582356416916	Marionette	DEBUG	0 -> [0,77,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582356416917	Marionette	DEBUG	0 <- [1,77,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7dcc48eb-0fd1-4709-a63b-56e4495f0d9a"}}]
+1582356416919	Marionette	DEBUG	0 -> [0,78,"WebDriver:ElementSendKeys",{"id":"7dcc48eb-0fd1-4709-a63b-56e4495f0d9a","text":"a","value":["","a"]}]
+1582356416923	Marionette	DEBUG	0 <- [1,78,null,{"value":null}]
+1582356416925	Marionette	DEBUG	0 -> [0,79,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582356416926	Marionette	DEBUG	0 <- [1,79,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7dcc48eb-0fd1-4709-a63b-56e4495f0d9a"}}]
+1582356416927	Marionette	DEBUG	0 -> [0,80,"WebDriver:ElementSendKeys",{"id":"7dcc48eb-0fd1-4709-a63b-56e4495f0d9a","text":"","value":[""]}]
+1582356416943	Marionette	DEBUG	0 <- [1,80,null,{"value":null}]
+1582356416944	Marionette	DEBUG	0 -> [0,81,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582356416945	Marionette	DEBUG	0 <- [1,81,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7dcc48eb-0fd1-4709-a63b-56e4495f0d9a"}}]
+1582356416947	Marionette	DEBUG	0 -> [0,82,"WebDriver:ElementSendKeys",{"id":"7dcc48eb-0fd1-4709-a63b-56e4495f0d9a","text":"ChinaTower1234*","value":["C","h","i","n","a","T","o","w","e","r","1","2","3","4","*"]}]
+1582356416963	Marionette	DEBUG	0 <- [1,82,null,{"value":null}]
+1582356416965	Marionette	DEBUG	0 -> [0,83,"WebDriver:FindElement",{"using":"xpath","value":"//input[@placeholder=\"请输入密码\"]"}]
+1582356416966	Marionette	DEBUG	0 <- [1,83,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7dcc48eb-0fd1-4709-a63b-56e4495f0d9a"}}]
+1582356416968	Marionette	DEBUG	0 -> [0,84,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"7dcc48eb-0fd1-4709-a63b-56e4495f0d9a","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356416970	Marionette	DEBUG	0 <- [1,84,null,{"value":null}]
+1582356416973	Marionette	DEBUG	0 -> [0,85,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"line center\"]/button"}]
+1582356416974	Marionette	DEBUG	0 <- [1,85,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"20c8a365-8d9e-45fa-82ec-a60cc23867e2"}}]
+1582356416977	Marionette	DEBUG	0 -> [0,86,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"20c8a365-8d9e-45fa-82ec-a60cc23867e2","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1582356416985	Marionette	DEBUG	0 <- [1,86,null,{"value":true}]
+1582356417489	Marionette	DEBUG	0 -> [0,87,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"line center\"]/button"}]
+1582356417493	Marionette	DEBUG	0 <- [1,87,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"20c8a365-8d9e-45fa-82ec-a60cc23867e2"}}]
+1582356417499	Marionette	DEBUG	0 -> [0,88,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"20c8a365-8d9e-45fa-82ec-a60cc23867e2","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356417504	Marionette	DEBUG	0 <- [1,88,null,{"value":null}]
+1582356417510	Marionette	DEBUG	0 -> [0,89,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"line center\"]/button"}]
+1582356417512	Marionette	DEBUG	0 <- [1,89,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"20c8a365-8d9e-45fa-82ec-a60cc23867e2"}}]
+1582356417517	Marionette	DEBUG	0 -> [0,90,"WebDriver:ElementClick",{"id":"20c8a365-8d9e-45fa-82ec-a60cc23867e2"}]
+1582356417760	Marionette	DEBUG	[19] Canceled page load listener because no navigation has been detected
+1582356417761	Marionette	DEBUG	0 <- [1,90,null,{"value":null}]
+1582356417766	Marionette	DEBUG	0 -> [0,91,"WebDriver:FindElement",{"using":"xpath","value":"//div[@class=\"line center\"]/button"}]
+1582356417769	Marionette	DEBUG	0 <- [1,91,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"20c8a365-8d9e-45fa-82ec-a60cc23867e2"}}]
+1582356417775	Marionette	DEBUG	0 -> [0,92,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"20c8a365-8d9e-45fa-82ec-a60cc23867e2","element-6066-11e4-a52e-4f735466ce ... ],"newSandbox":false,"script":"arguments[0].setAttribute('style',arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1582356417780	Marionette	DEBUG	0 <- [1,92,null,{"value":null}]
+1582356417783	Marionette	DEBUG	0 -> [0,93,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1582356417783	Marionette	INFO	Stopped listening on port 61470
+1582356417820	Marionette	TRACE	Received observer notification quit-application
+1582356417822	Marionette	DEBUG	0 <- [1,93,null,{"cause":"shutdown"}]
+1582356417840	Marionette	DEBUG	0 -> [0,94,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1582356417840	Marionette	DEBUG	0 <- [1,94,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1582356417845	Marionette	DEBUG	Closed connection 0
+1582356417964	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1582356417964	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1582356417964	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1582356417964	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1582356417965	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1582356417965	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1582356417965	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1582356417965	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1582356417965	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1582356417965	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1582356417965	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1582356417965	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1582356417965	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1582356417965	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1582356417965	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1582356417966	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1582356417966	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1582356417966	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1582356417966	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1582356417966	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1582356417966	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1582356417966	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1582356417966	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1582356417966	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1582356417966	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1582356417966	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1582356417966	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1582356417966	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1582356417966	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1582356417966	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1582356417967	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1582356417967	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1582356417967	Marionette	DEBUG	Marionette stopped listening
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
