@@ -76,5 +76,5 @@ if __name__ == "__main__":
     fp.close()  # 关闭文件
 
     report = repotr_path(file_path)
-    # e = ['jiyananid@163.com']  # 可以有多个收件人，用逗号隔开
-    # email(report, e)
+    e = ['jiyananid@163.com']  # 可以有多个收件人，用逗号隔开
+    email(report, e)
