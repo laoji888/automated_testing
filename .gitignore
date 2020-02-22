@@ -2,3 +2,9 @@
 .idea/
 case/__pycache__/
 common/__pycache__/
+page/__pycache__/
+report_api/
+report_ui/
+logs/
+error_imgs/
+*.log

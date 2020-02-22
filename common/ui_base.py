@@ -19,7 +19,7 @@ class base():
         self.driver = driver
         self.url = url
         self.transfer_code = '123'
-        self.log = log().ll(logs_path = "logs/ui_log.txt")
+        self.log = log().ll(logs_path = "logs/ui_log.log")
 
     # 打开浏览器并最大化
     def open(self):

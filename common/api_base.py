@@ -3,7 +3,7 @@ import datetime
 from common.log import log
 import xlrd, requests, unittest, time, json, pymysql
 
-log = log().ll("./logs/api_log.txt")
+log = log().ll("./logs/api_log.log")
 
 
 # now_time = datetime.datetime.now() 获取时间
