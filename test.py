@@ -107,30 +107,29 @@ def aaa():
     print(x['title'])
 
 
-
-def msql(sql):
+def mysql(sql):
     conn = pymysql.connect(
         host='127.0.0.1',
-        user = 'root',
-        passwd="000000",
-        port= 3306,
+        user='root',
+        password = '000000',
+        port=3306,
         db='test',
         charset='utf8')
 
     curso = conn.cursor()
-    cursor = curso.execute(sql)
-    print(cursor)
-    print(curso)
+    curso.execute(sql)
+    xx = curso.fetchone()
+    conn.commit()
     curso.close()
+    conn.close()
+    return xx[0]
 
-from selenium import webdriver
-from time import sleep
+s = "select name from django_migrations where id=1;"
 
-dr = webdriver.Firefox()
-dr.get("http://120.52.157.131:58080/#/home/cooperation")
-sleep(10)
-
-
-
-
-
+z = mysql(s)
+print(z,type(z))
+# print(type(z))
+#print(z[0],type(z[0][0]))
+#
+# c = str(z[0][0])
+# print(c,type(c))

@@ -20,7 +20,7 @@ def repotr_path(file_path):  # 给测试报告排序，返回路径，并控制�
     count = os.listdir(file_path)
 
     # 控制报告的数量
-    if len(count) > 5:
+    if len(count) > 2:
         count.sort()
         ph = './report_api/' + count[0]
         os.remove(ph)

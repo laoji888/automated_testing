@@ -210,7 +210,6 @@ class base():
             z = str(e)
             return z
 
-    #
     def is_display(self, *loc):
         """
         判断元素是够显示，显示返回True，不显示返回False

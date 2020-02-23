@@ -40,19 +40,23 @@ class base():
         self.nrow = 1
         self.ast = unittest.TestCase()  # 使用unittest框架下的断言
 
-    # 连接数据库，有待完善
+    # 连接数据库
     def msql(self,sql):
         conn = pymysql.connect(
             host='127.0.0.1',
             user = 'root',
+            password='000000',
             port= 3306,
             db='test',
             charset='utf8')
 
         curso = conn.cursor()
-        cursor = curso.execute(sql)
+        curso.execute(sql)
+        xx = curso.fetchone()
+        conn.commit()
         curso.close()
-        return cursor
+        conn.close()
+        return xx[0]
 
     # 获取url
     def get_url(self, nrows=0, ncols=0):
